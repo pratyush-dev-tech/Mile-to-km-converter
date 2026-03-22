@@ -5,6 +5,6 @@ int main()
     printf("Enter a number in foot:");
     scanf("%f",&foot);
     inches=foot*12;
-    printf("inches=%f\n",inches);
+    printf("inches=%.3f\n",inches);
     return 0;
 }
