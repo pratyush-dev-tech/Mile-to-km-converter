@@ -6,7 +6,8 @@ int main() {
     float bill;
     char choice;
 
-    do {
+    do 
+    {
         printf("\nEnter Customer Name: ");
         scanf("%s", name);
 
