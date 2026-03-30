@@ -1,10 +1,10 @@
 #include <stdio.h>
-
-int main() {
-    char name[50];
-    int units;
-    float bill;
-    char choice;
+int main() 
+{
+char name[50];
+int units;
+float bill;
+char choice;
 
     do 
     {
