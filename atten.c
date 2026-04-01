@@ -12,13 +12,13 @@ int main()
 
     percentage = ((float)attended_classes / total_classes) * 100;
 
-    // Output
     printf("\nAttendance Percentage = %.2f%%\n", percentage);
 
-    // Condition check
-    if (percentage >= 75) {
+    if (percentage >= 75) 
+    {
         printf("Status: Allowed to sit in exam \n");
-    } else {
+    } else 
+    {
         printf("Status: Not allowed to sit in exam \n");
     }
 
