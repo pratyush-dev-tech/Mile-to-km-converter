@@ -1,17 +1,15 @@
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     int total_classes, attended_classes;
     float percentage;
 
-    // Input
     printf("Enter total number of classes: ");
     scanf("%d", &total_classes);
 
     printf("Enter number of classes attended: ");
     scanf("%d", &attended_classes);
 
-    // Calculation
     percentage = ((float)attended_classes / total_classes) * 100;
 
     // Output
