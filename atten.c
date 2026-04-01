@@ -19,9 +19,9 @@ int main() {
 
     // Condition check
     if (percentage >= 75) {
-        printf("Status: Allowed to sit in exam ✅\n");
+        printf("Status: Allowed to sit in exam \n");
     } else {
-        printf("Status: Not allowed to sit in exam ❌\n");
+        printf("Status: Not allowed to sit in exam \n");
     }
 
     return 0;
